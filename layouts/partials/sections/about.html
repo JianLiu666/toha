@@ -22,7 +22,13 @@
       </h5>
       {{ end }}
       <p class="p-1 text-justify">
-        {{ .summary | markdownify }}
+        {{ .summary1 | markdownify }}
+      </p>
+      <p class="p-1 text-justify">
+        {{ .summary2 | markdownify }}
+      </p>
+      <p class="p-1 text-justify">
+        {{ .summary3 | markdownify }}
       </p>
       <div class="text-container ml-auto">
         <ul class="social-link d-flex">
